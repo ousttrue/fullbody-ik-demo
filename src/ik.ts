@@ -1,6 +1,5 @@
-
 import * as math from "mathjs";
-import {range, zip, rotWrap} from "./util";
+import {range, zip, rotWrap} from "./gui";
 import {
   add,
   mul,

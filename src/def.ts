@@ -1,4 +1,3 @@
-
 import { TransformControls } from 'three/examples/jsm/controls/TransformControls.js';
 
 export type FArray3 = [number, number, number];
@@ -26,7 +25,7 @@ export type Joint = {
   rotation?: FArray3;
   parentIndex: number;
   dirty: boolean;
-  world: math.Matrix; 
+  world: math.Matrix;
 };
 
 export type Constrain = {
@@ -45,7 +44,7 @@ export type Constrain = {
   enable: boolean;
 };
 
-export enum ConstrainType{
+export enum ConstrainType {
   Position,
   Orientation,
   OrientationBound,
@@ -81,3 +80,4 @@ export const PriorityName = [
   "Low",
   "High"
 ]
+

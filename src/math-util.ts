@@ -1,4 +1,3 @@
-
 import * as math from "mathjs";
 import * as ml from "ml-matrix";
 import { FArray3, FArray4 } from "./def";
